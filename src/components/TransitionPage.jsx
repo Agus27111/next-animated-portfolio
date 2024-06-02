@@ -15,14 +15,14 @@ function TransitionPage({ children }) {
           className="h-screen w-screen fixed bg-black rounded-b-[80px] z-40"
           animate={{ height: "0vh" }}
           exit={{ height: "140vh" }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
+          transition={{ duration: 2.5, ease: "easeInOut" }}
         />
         <motion.div
           className="fixed m-auto top-0 bottom-0 right-0 left-0 text-white text-6xl cursor-default z-50 w-fit h-fit"
           initial={{ opacity: 1 }}
           animate={{ opacity: 0 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+          transition={{ duration: 2.8, ease: "easeInOut" }}
         >
           {" "}
           {pathName.substring(1)}
@@ -31,7 +31,7 @@ function TransitionPage({ children }) {
           className="h-screen w-screen fixed bg-black rounded-t-[80px] bottom-0 z-40 "
           initial={{ height: "1400vh" }}
           animate={{ height: "0vh" }}
-          transition={{ delay: 0.5, ease: "easeInOut" }}
+          transition={{ delay: 3.5, ease: "easeInOut" }}
         />
 
         <div className="h-24">

@@ -23,7 +23,7 @@ const Homepage = () => {
             className="text-5xl md:text-6xl font-bold text-neutral-100 uppercase"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay:1 }}
+            transition={{ duration: 1, delay: 1 }}
           >
             I&apos;m Web Developer
           </motion.h1>
@@ -33,9 +33,9 @@ const Homepage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.25 }}
           >
-            Hello! I&apos;m Agus, a passionate and driven junior web developer
-            with a keen eye for detail and a commitment to crafting seamless
-            digital experiences.
+            I am highly enthusiastic and open to collaborating on innovative
+            projects as a web developer, eager to contribute my skills and grow
+            within a dynamic and forward-thinking team environment.
           </motion.p>
 
           {/* Button */}
